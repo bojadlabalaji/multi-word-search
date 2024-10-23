@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multi-Search Highlighter</title>
+  <link rel="stylesheet" crossorigin href="/assets/popup-CunRntWt.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Multi-Search Highlighter</h1>
+      <button id="clearAll" class="clear-btn" title="Clear all searches">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 6h18M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
+        </svg>
+      </button>
+    </div>
+    
+    <div id="searchRows" class="search-rows"></div>
+    
+    <button id="addRow" class="add-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 5v14M5 12h14"/>
+      </svg>
+      Add Search Term
+    </button>
+
+    <div class="footer">
+      <span class="shortcut">Shortcut: Ctrl+Shift+F</span>
+      <button id="applySearch" class="apply-btn">Apply</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
